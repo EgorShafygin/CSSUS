@@ -1,16 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:700,900&subset=cyrillic");
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i&subset=cyrillic');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
 
-@keyframes header_anim {
-  from {
-    transform: translateX(-120%);
-  }
-  to {
-    transform: translateX(0);
-  }
-}
 
 .header__links {
   font-family: Roboto, sans-serif;
 }
+
