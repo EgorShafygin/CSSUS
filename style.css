@@ -15,9 +15,9 @@ body {
   padding-left: 55px; /*Устанавливает значение поля от левого края содержимого элемента*/
   padding-right: 55px; /*Устанавливает значение поля от правого края содержимого элемента*/
   box-sizing: border-box;
+  margin-top: 0;
   
 }
-/*Основной контейнер*/
 
 .site_header {
   width: 100%; /*Устанавливает ширину содержимого элемента*/
@@ -47,9 +47,8 @@ body {
   line-height: 28px; /*Задаёт высоту строки текста*/
   text-decoration: none; /*Добавляет оформление текста*/
   color: #fff; /*Определяет цвет текста элемента*/
-  /*transition: color .2s linear;*/
-  /*transition: font-size .3s linear;*/
 }
+
 .section_1 {
   background: url(img1.png) center no-repeat; /*Установит фон элемента*/
   background-size: cover; /*Масштабирует фоновое изображение, согласно заданным размерам*/
@@ -57,6 +56,7 @@ body {
   padding-top: 160px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
   padding-bottom: 160px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
 }
+
 .main_title {
   font-style: normal; /*Определяет начертание шрифта — обычное, курсивное или наклонное*/
   font-weight: 500; /*Устанавливает насыщенность шрифта*/
@@ -65,22 +65,27 @@ body {
   text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
   color: #fff; /*Определяет цвет текста элемента*/
 }
+
 .section_2{
   background-color: #EEEEEE;
+  padding-bottom: 55px;
 }
 .text_section_1{
   font-size: 32px;
   line-height: 37.5px;
 }
+
 .span{
   font-weight: 700;
 }
+
 .section_3{
   background: url(img2.png) center no-repeat;
   background-size: cover;
   padding-top: 128px;
   padding-bottom: 128px;
 }
+
 .message{
   font-size: 48px;
   font-style: italic;
@@ -94,11 +99,50 @@ body {
   font-size: 64px;
   text-align: center;
   line-height: 75px;
+  margin-top: 0;
+  padding-top: 55px;
+  margin-bottom: 0;
 
+}
+
+.Italic{
+  font-style: italic;
 }
 
 .section_4{
   background-color: #fff;
+  padding-bottom: 55px;
 }
-/*Основной звголовок*/
+.Logo2{
+  float: left;
+  padding-right: 55px;
+}
 
+.text_section_2{
+  font-size: 32px;
+  line-height: 37.5px;
+}
+
+.Team{
+  padding-top: 55px;
+}
+
+.member{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 283px;
+  flex-flow: column wrap;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.foto{
+  width: 168px;
+  height: 168px;
+}
+.name{
+  color: #007765;
+  font-size: 24px;
+  line-height: 28.13px;
+}
