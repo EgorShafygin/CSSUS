@@ -125,6 +125,11 @@ body {
 
 .Team{
   padding-top: 55px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
+  
 }
 
 .member{
@@ -136,6 +141,8 @@ body {
   flex-flow: column wrap;
   flex-wrap: wrap;
   text-align: center;
+  margin: 0;
+  
 }
 .foto{
   width: 168px;
@@ -145,4 +152,5 @@ body {
   color: #007765;
   font-size: 24px;
   line-height: 28.13px;
+  margin-bottom: 0;
 }
